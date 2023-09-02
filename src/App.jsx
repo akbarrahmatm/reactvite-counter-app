@@ -47,7 +47,15 @@ function App() {
         >
           Increase
         </button>
+
+        <button className="btn">Hello daisyUI</button>
       </div>
+      <ul className="steps mt-5">
+        <li className="step step-primary">Register</li>
+        <li className="step step-primary">Choose plan</li>
+        <li className="step step-primary">Purchase</li>
+        <li className="step">Receive Product</li>
+      </ul>
     </div>
   );
 }
